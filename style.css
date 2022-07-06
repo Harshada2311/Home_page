@@ -1,26 +1,8 @@
-.container
-{
-    margin: 180px auto;
-    margin-left: 300px;
-    margin-top: 20px;
-   background-image: url(./Img/img3.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: 1.5px;
-   /* background-color: yellow; */
-   border: 2px solid rgba(176, 224, 230, 0.092);
-   height: 900px;
-   width: 1487px;
-
-}
 ul {
-    background-color: rgba(72, 156, 168, 0.861);
-    height: 65px;
+    background-color: rgba(176, 224, 230, 0.092);
+    height: 50px;
     color: black;
-    position: relative;
-    top: 70px;
 }
-    
 
 .navigation {
     display: flex;
@@ -32,93 +14,219 @@ ul {
 }
 
 li {
-    padding: 21px 1px 1px 21px;
+    padding: 0px 0px 0px 20px;
     position: relative;
-    left: 500px;
+    left: 100px;
     color: black;
-    font-size: 20px;
-
 }
 
 ul {
     list-style: none;
 
 }
-.para1{
-    position: relative;
-    top: -48px;
-    font-size: 19px;
-}
 
 .logo {
     position: relative;
     right: 10px;
-    bottom: -8px;
+    bottom: 10px;
     font-size: 30px;
     font-weight: bolder;
 }
+
+input {
+    position: relative;
+    left: 675px;
+    top: 10px;
+    font-size: 15px;
+    /* font-weight: bolder; */
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
 .nav {
-    /* background-image: url(./Img/img3.jpg); */
+    background-image: url(./Img/img3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 1.5px;
-    /* background-color: yellow; */
+        /* background-color: yellow; */
     border: 2px solid rgba(176, 224, 230, 0.092);
-    height: 900px;
-    width: 1487px;
+    height: 382px;
+
 }
 .article{
     position: relative;
-    right: -70px;
-    top: 134px;
+    right: 4px;
+    top: 37px;
     
 }
-#one{
+input#one{
     position: relative;
-    top: -14px;
-    font-size: 22px;
-    background-color: rgb(65, 160, 224);
-    border-radius: 12px;
-    width: 146px;
+    left: 47px;
+    top: 25px;
+    font-size: 15px;
+    /* font-weight: bolder; */
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px 
 }
-#two{
-    position: relative;
-    top: -14px;
-    font-size: 22px;
-    width: 146px;
-    border-radius: 12px;
-}
-
-.footer{
-    background-color: rgba(72, 156, 168, 0.861);
-    height: 144px;
-    color: black;
-
-  
-}
-.foot_item{
+.outerBox{
+    background-color: rgba(176, 224, 230, 0);
+    height: 300px;
     display: flex;
-    position: relative;
-    justify-items: center;
-    padding: 0px;
-    font-size: 20px;
     flex-wrap: wrap;
+    justify-content: left;
+    justify-content: space-evenly;
+    
+    padding-top: -2px;
 }
-.footer-content{
-    padding: 35px 25px 4px 21px;
+.innerBox{
     position: relative;
-     left: 372px; 
-    color: black;
-    font-size: 20px;
+    right: 81px;
+    top: 18px;
+    background-color: rgba(176, 224, 230, 0);
+    height: 237px;
+    width: 290px;
+    border-radius: 5px;
 }
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
+   
+
+#box1{
+    background-image: url(./Img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: 1px;
+    background-position: bottom;
+
+
+}
+#box2{
+    background-image: url(./Img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: 1px;
+    background-position: bottom;
     position: relative;
-    top: 56px;
-    left: 376px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    right: 135px;
 }
+#box3{
+    background-image: url(./Img/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: 1px;
+    background-position: bottom;
+    position: relative;
+    right: 190px;
+
+}
+.photo_content{
+    background-color: rgba(98, 216, 231, 0);
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    justify-content: space-evenly;
+    padding-top: 20px; 
+
+}
+.content{
+    position: relative;
+    right: 78px;
+    top: -74px;
+    background-color: rgba(189, 198, 199, 0);
+    height: 184px;
+    width: 290px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#dis1{
+    position: relative;
+    left: 50px;
+    top: 13px;
+    font-size: 23px;
+    /* font-weight: bolder; */
+    background-color: rgba(189, 198, 199, 0);
+    color: rgb(43, 46, 49);
+    border-radius: 30px;
+    height: 50px;
+}
+#dis2{
+    position: relative;
+    left: 50px;
+    top: 13px;
+    font-size: 23px;
+    /* font-weight: bolder; */
+    background-color: rgba(189, 198, 199, 0);
+    color: rgb(43, 46, 49);
+    border-radius: 30px;
+    height: 50px;
+    
+}
+#dis3{
+    position: relative;
+    left: 43px;
+    top: 13px;
+    font-size: 23px;
+    /* font-weight: bolder; */
+    background-color: rgba(189, 198, 199, 0);
+    color: rgb(43, 46, 49);
+    border-radius: 30px;
+    height: 50px;
+}
+#item2{
+    
+    position: relative;
+    right: 135px;
+}
+#item3{
+    position: relative;
+    right: 190px;
+}
+.outer-sec{
+    background-color: rgba(176, 224, 230, 0.057);
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    justify-content: space-evenly;
+    
+    padding-top: -2px;
+}
+.inner-sec{
+    position: relative;
+    right: 81px;
+    top: 18px;
+    background-color: rgba(92, 103, 105, 0);
+    height: 237px;
+    width: 290px;
+    border-radius: 5px;
+}
+#inbox1{
+    background-image: url(./Img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: 1px;
+    background-position: bottom;
+
+
+}
+#inbox2{
+    background-image: url(./Img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: 1px;
+    background-position: bottom;
+    position: relative;
+    right: 135px;
+}
+#inbox3{
+    background-image: url(./Img/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: 1px;
+    background-position: bottom;
+    position: relative;
+    right: 190px;
+}
+
