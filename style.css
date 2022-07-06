@@ -1,0 +1,124 @@
+.container
+{
+    margin: 180px auto;
+    margin-left: 300px;
+    margin-top: 20px;
+   background-image: url(./Img/img3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 1.5px;
+   /* background-color: yellow; */
+   border: 2px solid rgba(176, 224, 230, 0.092);
+   height: 900px;
+   width: 1487px;
+
+}
+ul {
+    background-color: rgba(72, 156, 168, 0.861);
+    height: 65px;
+    color: black;
+    position: relative;
+    top: 70px;
+}
+    
+
+.navigation {
+    display: flex;
+    position: relative;
+    justify-items: center;
+    padding: 0px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 21px 1px 1px 21px;
+    position: relative;
+    left: 500px;
+    color: black;
+    font-size: 20px;
+
+}
+
+ul {
+    list-style: none;
+
+}
+.para1{
+    position: relative;
+    top: -48px;
+    font-size: 19px;
+}
+
+.logo {
+    position: relative;
+    right: 10px;
+    bottom: -8px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.nav {
+    /* background-image: url(./Img/img3.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1.5px;
+    /* background-color: yellow; */
+    border: 2px solid rgba(176, 224, 230, 0.092);
+    height: 900px;
+    width: 1487px;
+}
+.article{
+    position: relative;
+    right: -70px;
+    top: 134px;
+    
+}
+#one{
+    position: relative;
+    top: -14px;
+    font-size: 22px;
+    background-color: rgb(65, 160, 224);
+    border-radius: 12px;
+    width: 146px;
+}
+#two{
+    position: relative;
+    top: -14px;
+    font-size: 22px;
+    width: 146px;
+    border-radius: 12px;
+}
+
+.footer{
+    background-color: rgba(72, 156, 168, 0.861);
+    height: 144px;
+    color: black;
+
+  
+}
+.foot_item{
+    display: flex;
+    position: relative;
+    justify-items: center;
+    padding: 0px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+.footer-content{
+    padding: 35px 25px 4px 21px;
+    position: relative;
+     left: 372px; 
+    color: black;
+    font-size: 20px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    position: relative;
+    top: 56px;
+    left: 376px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
